@@ -1,4 +1,8 @@
 {
   "repository_full_name": "web4hub/NeuroMindAI",
+  "path": ".github/workflows/ci.yml",
+  "content": "name: NeuroMindAI CI\n\non:\n  push:\n    branches: [\"main\", \"neuromind-v0.1\"]\n  pull_request:\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-python@v5\n        with:\n          python-version: \"3.11\"\n      - name: Install\n        run: python -m pip install -e .\n      - name: Tests\n        run: pytest -q\n",
+  "message": "ci: add NeuroMindAI test workflow",
+  "branch": "neuromind-v0.1",
   "link_id": "link_6ab3583e69a08191adf6a9a6e8d0ff55"
 }
