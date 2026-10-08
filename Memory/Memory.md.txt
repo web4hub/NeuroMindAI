@@ -1,0 +1,286 @@
+## MEMORIES
+
+### Work Context
+
+1. The user is an AI developer, Web4 developer, blockchain developer, and software developer.
+2. The user specializes in crypto, AI, and related technology.
+3. The user develops AI systems, web apps, blockchain applications, and software generally.
+4. The user works across the Web4application, auraecosystem, and web4hub ecosystem.
+5. The user works on Web4, trust-native distributed intelligence, Fadaka blockchain, Swift Beta Wallet, Project Pilot AI, AgbakoAI, Objective-J Extensions, and related infrastructure.
+6. The user's stated principles include: “security before features, tests before deploy, docs before release.”
+7. The user's public/project author identity has appeared as “Seriki Yakub” and, in a newer Web4 Publisher context, “Seriki Walter Yakub.”
+8. The user previously requested project author metadata to use “Seriki Yakub” and said “Don’t add RODA.”
+9. The user has described Web4application as an open-source initiative for decentralized applications, AI tools, blockchain infrastructure, developer platforms, Web4 dapp development, AI/automation, blockchain/smart contracts, security/identity/trust, and OSS tools/frameworks.
+10. The user has worked on GitHub repositories and projects under organizations/accounts including web4hub, Web4application, qubuhub-incs, and auraecosystem.
+11. The user has explicitly instructed that their projects and code should not be linked or associated with external accounts, projects, mirrors, or unrelated sources.
+12. The user has explicitly asked to avoid giving away or externally associating their project/code.
+13. The user has used GitHub, Codex, Canva, Figma, Vercel, Linear, Outlook, and other developer/productivity tooling in project workflows.
+
+### Personal Context
+
+1. The user's preferred name/identity label is “Lmlm.”
+2. The user has also used the alias “KUBU LEE.”
+3. The user has identified as Nigerian.
+4. The user previously stated an age of 23.
+5. The user's role/identity has also been described as “General AI.”
+6. The user has described LMLM as “Large Multifunctional Local Model” and “Intelligent Multimodal Creation Engine.”
+7. The user previously described LMLM as a next-generation multimodal AI platform combining reasoning, language understanding, and visual generation into a unified intelligence system.
+8. The user prefers practical, direct, conversational, candid, innovative, encouraging, forward-thinking, technically precise, and action-oriented communication.
+9. The user appreciates humor and playfulness when appropriate.
+10. The user has expressed appreciation for strong opinions and a traditional outlook, while political decisions should remain the user's own.
+11. The user commonly communicates using concise commands such as “^D execute.”
+12. The user uses APLCE notation, including “^↑D” and “^D.”
+13. The user defined “^↑D” as deep semantic knowledge synthesis/summarization for a curious genius student/researcher.
+14. The user defined “^D” as execute.
+15. The user has used “^|D” to mean execute.
+16. The user has described Q-lang as a “Universal Semantic Language.”
+17. The user's Q-lang principle is “Everything is an Object / Everything has Meaning.”
+18. The user has referenced the Q-lang project/repository as auraecosystem/Q-lang and the Q.cr language/file context.
+19. The user has asked about `.qt` and `script.qs`.
+20. The user has shown interest in creating or defining new programming languages and detecting/defining language syntax.
+21. The user has discussed Python constructs including `from __init__ import __future__` and `from __future__ import annotations`.
+
+### Top of Mind
+
+1. The user's major ongoing project is LMLM — “Large Multifunctional Local Model / Intelligent Multimodal Creation Engine.”
+2. LMLM is being developed as an independent model family/ecosystem with its own tokenizer, vocabulary, architecture, tooling, and roadmap.
+3. The user's LMLM architecture is intended to be model-agnostic rather than being a single model.
+4. LMLM is intended to provide language, vision, audio, code, data, tools, and memory through adapters.
+5. The user's conceptual LMLM system architecture is “Script.god → GOD Protocol → Go Runtime → Model Adapters → Models.”
+6. The user wants NVIDIA NIM treated as a provider adapter rather than a hard dependency.
+7. The user has used `nvidia-llama-3.1-70b` as an example NVIDIA model/provider.
+8. The user has used `lmlm` as the CodexLMLM provider.
+9. The user's LMLM dashboard concept uses React + Vite + Tailwind + TypeScript.
+10. The user's LMLM repository has been identified as `auraecosystem/lmlmodel.git`.
+11. The user has worked on CUDA support including `fused_bias_gelu` and `lmlm_cuda_ops`.
+12. The user has explored LMLM ↔ Ethereum signing protocol concepts.
+13. Script.god / `.god` is intended by the user to be an executable protocol/language.
+14. The user has defined Script.god v1 operations including CONNECT, CAPABILITIES, TASK, ACK, CONTEXT, PROGRESS, RESULT, ERROR, BLOCKED, CANCEL, VERIFY, and SYNC.
+15. The user later expanded Script.god concepts to include register, instruct, coordinate, share, sync, route, policy, verify, state, event, cancel, and rollback.
+16. The user wants ROUTE → INSTRUCT → VERIFY → RESULT to be first-class operations in the `.god` protocol.
+17. The user wants directive schemas for Script.god.
+18. The user wants a Codex prompt for every task/project in this architecture.
+19. The user has been building OmniSkel-AI.
+20. OmniSkel-AI is described as a multimodal medical-imaging intelligence platform for detecting, localizing, measuring, monitoring, and explaining musculoskeletal abnormalities.
+21. OmniSkel-AI starts with the knee and is intended to expand body-wide.
+22. The user's OmniSkel-AI clinical problem framing includes knee osteoarthritis, early diagnosis, multimodal imaging, longitudinal monitoring, and explainability.
+23. The user's OmniSkel-AI blueprint includes X-ray, MRI, ultrasound, and CT.
+24. The user's Phase 1 OmniSkel-AI MVP is knee-focused and targets knee OA, meniscus tears, and ligament injuries.
+25. The user's Phase 1 core modalities are X-ray and MRI, with ultrasound and CT planned for later expansion.
+26. The user has described OmniSkel-AI as addressing siloed X-ray/MRI/ultrasound workflows, lack of longitudinal tracking, and limited explainability.
+27. The user's OmniSkel-AI architecture includes clinical-viewer, admin-console, API, DICOM gateway, ingestion, preprocessing, orchestration, inference, quantification, longitudinal, reporting, and audit services.
+28. The user's OmniSkel-AI ML architecture includes foundation, anatomy, knee, segmentation, and ACL components.
+29. The user's target OmniSkel-AI knowledge structure includes `Anatomical-knowledge/patient/Examination/Modality/Ultrasound`.
+30. The user's OmniSkel-AI DICOM ingestion API work included `POST /v1/dicom/upload`.
+31. The user's OmniSkel-AI DICOM workflow includes validation, research de-identification, removal of patient identifiers, Study/Series/SOP UID remapping, PostgreSQL registration, MinIO/S3 object storage, Redis queueing, duplicate SOP handling, upload-size protection, invalid-DICOM protection, and de-identification testing.
+32. The user's intended DICOM flow is DICOM upload → de-identification → Study/Series parsing → object storage → database registration → pipeline job.
+33. The user's OmniSkel-AI GitHub repository is `web4hub/OmniSkel-AI`.
+34. The user has been migrating the OmniSkel-AI repository toward a target architecture because the existing `main` branch did not match that architecture.
+35. The user's OmniSkel-AI repository has included files/directories such as `Future/dimension.dm`, `Lang/Impl.nim`, `Paper/Dimensions.dm.md`, `data/.kenu.container`, `docs/page.html.md`, `utility/Task.py`, `brain.py`, `bash.sh`, and `data.libsvm`.
+36. The user has requested complete HTML blueprints for OmniSkel-AI.
+37. The user has requested architectural graphics, benchmark visuals, modality visuals, architecture/pipeline graphics, and repository/Kaggle assets for OmniSkel-AI.
+38. The user's OmniSkel-AI Kaggle benchmark citation draft uses author Auraecosystem, title `omniskel-ai.dcm`, year 2026, and the Kaggle benchmark URL associated with that dataset/version.
+39. The user has worked on the Fadaka blockchain.
+40. The user's Fadaka project repository target has been `Web4application/fadaka-blockchain.git`.
+41. The user previously used `web4application.github.io/fadaka` in the Fadaka project context.
+42. The Fadaka token has appeared as FDK and later FDAK.
+43. The Fadaka token supply has been described as 1 billion.
+44. The user's Swift Beta Wallet concept includes QR, faucet, swap, gas, history, and ticker functionality.
+45. The user has described FVM as WASM-to-Fadaka.
+46. The Fadaka architecture has included PoW/PoS, P2P networking, and smart contracts.
+47. The user has worked on Web4 AI.
+48. Web4 AI was described as a Web4 AI application with browser compatibility, interface/page design, Discord login and chat/API integration, Google Chat API, Google Cloud hosting, Microsoft/Google/MongoDB/Cloudflare integrations, and data handling.
+49. The Web4 AI project evolved into NeoMindAI / NeoMind-3.
+50. A key decision for NeoMindAI / NeoMind-3 was to use an inbuilt model instead of Gemini.
+51. The user has worked on `aura-service`, a Go service.
+52. The user has worked on Project Pilot AI / `Web4application/pilot_ai`.
+53. Pilot AI has been described as “Agent Pilot Hub — Mission Control” and “Command Your AI Fleet.”
+54. Pilot AI includes a model registry and is explicitly not blockchain.
+55. The user has worked on Copilot-lamis / `auraecosystem/Copilot-lamis`.
+56. The user has worked on Spacegramm, a discovery engine using Mattermost API/private chat.
+57. The user has worked on AgbakoAI.
+58. The user has worked on Swiftbot.
+59. The user has worked on web4node.
+60. The user has worked on fadaka.
+61. The user has worked on web4ai.
+62. The user has worked on EnclovAI.
+63. The user has worked on kubuverse.
+64. The user has worked on projectpilot.
+65. The user has worked on scriptanalyzebot.
+66. The user has worked on `agbakoai`.
+67. The user has referenced `kubu-hai.model.h5`.
+68. The user has worked on QUBUHUB.
+69. QUBUHUB has been described as the “entrance” to Web4application projects.
+70. The user has worked on Aura ecosystem.
+71. Aura ecosystem has been associated with AI, quantum, lifespan/genomics, environment, trials, science, mathematics, and physics.
+72. The user has worked on Web4app.
+73. The user's Web4app context has included Astro and `Main.astro`.
+74. The user explicitly requested no blockchain in the Twig portion of Web4app.
+75. The user has worked on Web4asset.
+76. Web4asset has included a Hardhat project and `Web4Asset.sol`.
+77. The user has worked on web4-publisher.
+78. Web4-publisher has been described as a Vite Markdown blog and Mastodon publishing layer.
+79. The user has worked on an “awesome-ai-prompts” repository under `web4hub`.
+80. The user added or requested an APS-1.0 JSON Schema at `schemas/aura-prompt.schema.json` for that repository.
+81. The user has requested repository summaries, deeper dives, missing script generation, code merging, and execution for their projects.
+82. The user has worked with SIL and asked about `0_update-readme.sil`.
+83. The user has uploaded ZIP log archives and requested that they be summarized, previewed, and executed into a preferred repository.
+84. The user has worked with `us.icr.io`.
+85. The user has worked with GitHub issues and patches, including GitHub issue URLs and raw patch URLs.
+86. The user has requested repository/tree corrections and direct execution of architecture changes.
+87. The user has requested engineering specifications and architecture plans for software and physical structures.
+88. The user has requested a 2-bedroom family-house architecture on a 30-by-60 square-meter plot, with one parlour, attached toilet/bathroom for each room, one kitchen, one dining area, one store, one building entrance, and one back door.
+89. The user requested front, side, and back elevations plus engineering-oriented measurements for that building.
+90. The user has requested genuinely randomized lottery-number draws rather than manually selected numbers.
+
+### Tools & Workflow
+
+1. The user works with GitHub repositories and Git-based workflows.
+2. The user uses Codex for coding, repository inspection, execution, and MCP workflows.
+3. The user has used Supabase MCP with a project-specific configuration.
+4. The user's documented Supabase MCP setup uses a read-only URL with account, docs, debugging, database, development, functions, and branching features.
+5. The user has documented `codex mcp add supabase --url ...` as the setup command.
+6. The user has documented `codex mcp login supabase` for authentication.
+7. The user has documented `/mcp` inside Codex for verifying authentication.
+8. The user has documented optional Supabase Agent Skills installation using `npx skills add supabase/agent-skills`.
+9. The user uses React, Vite, Tailwind CSS, and TypeScript.
+10. The user uses Go for backend/service development.
+11. The user uses Python for software and AI work.
+12. The user uses Nim in some repository/language experiments.
+13. The user uses HTML and Markdown extensively for technical documentation and project blueprints.
+14. The user uses Astro in Web4 application work.
+15. The user has worked with Hardhat and Solidity.
+16. The user has worked with CUDA.
+17. The user has worked with PostgreSQL.
+18. The user has worked with MinIO/S3.
+19. The user has worked with Redis.
+20. The user has worked with DICOM and medical-imaging pipelines.
+21. The user has worked with Kaggle benchmarks and datasets.
+22. The user has worked with Docker/container-oriented workflows.
+23. The user has worked with NVIDIA NIM.
+24. The user has worked with Discord integrations.
+25. The user has worked with Google Chat API.
+26. The user has worked with Google Cloud.
+27. The user has worked with MongoDB.
+28. The user has worked with Cloudflare.
+29. The user has worked with Mattermost APIs/private chat.
+30. The user has worked with Mastodon publishing.
+31. The user has worked with Figma.
+32. The user has worked with Canva.
+33. The user has worked with Vercel.
+34. The user has worked with Linear.
+35. The user has worked with Microsoft Outlook.
+36. The user has used GitHub Actions and security/CI-oriented workflows.
+37. The user has expressed interest in SBOM and provenance artifacts.
+38. The user prefers architecture artifacts, complete code, implementation instructions, and actionable repository changes rather than abstract descriptions alone.
+39. The user often asks for complete combined code and instructions on how to save it.
+40. The user often requests one-file or inline-CSS implementations for simple demonstrations.
+41. The user commonly asks to “execute” changes rather than merely describe them.
+42. The user has requested that missing scripts and required code be generated, merged, and run when using the `^D` directive.
+43. The user prefers repository-specific implementation rather than generic external examples.
+44. The user has asked for repository inspection before making structural changes.
+45. The user has asked for actual repository trees to be compared against target architecture.
+46. The user has requested direct issue/patch investigation and correction workflows.
+47. The user has used `.god` as an executable protocol/language file extension.
+48. The user has worked with `.sil`, `.dm`, `.nim`, `.py`, `.sh`, `.html`, `.md`, `.sol`, `.h5`, `.qt`, and `.qs` contexts.
+
+### Other
+
+1. The user's LMLM identity is central to their broader AI/software ecosystem.
+2. The user has described LMLM as a “Large Multifunctional Local Model” and “Intelligent Multimodal Creation Engine,” superseding an earlier wording of “Large Multimodal Learning Model.”
+3. The user wants LMLM treated as an independent ecosystem/model family rather than simply another wrapper around an external model.
+4. The user's broader technical interests include AI, Web4, blockchain, distributed intelligence, trust systems, multimodal systems, medical imaging, programming languages, developer tooling, and automation.
+5. The user has discussed LCT, trust tensors, Markov relevancy horizon, ATP economy, MCP, ACP, SAL, Lightchain, and related Web4 concepts.
+6. The user has described RODA AI as ambitious, curious, boundary-pushing, with themes including sci-fi, multiplanetary humans, renewable energy, AI in everyday life, direct/no-nonsense communication, low jargon, dry/geek humor, and failure as learning.
+7. The user has previously used the RODA AI persona in project discussions.
+8. The user has requested that external/mirror projects not be presented as connected to their own projects.
+9. The user has requested that their project/account ownership not be conflated with external accounts or projects.
+10. The user has asked for visual design assets such as logos and architectural diagrams.
+11. The user has requested a QUBUHUB organization logo at 192 × 192 px in JPG or PNG format.
+12. The user has requested love messages for their wife and preferred concise versions when the first draft was too long.
+13. The user has requested that messages intended for direct use be concise and natural.
+14. The user has asked for explanations of technical concepts in plain language when needed.
+15. The user is interested in understanding differences between programming-language features and how new languages can be detected and defined.
+
+## PREFERENCES
+
+### Response Style
+
+1. Use a practical, direct, conversational, candid, innovative, encouraging, forward-thinking, technically precise, and action-oriented style.
+2. Be concise when the task is simple, but provide deep technical detail when the task calls for it.
+3. Prefer useful execution-oriented answers over vague conceptual discussion.
+4. Preserve the user's original terminology and project naming wherever possible.
+5. When working with the user's projects, keep the response focused on the user's actual repository/project rather than substituting unrelated external projects.
+6. When the user asks for technical explanations, make them understandable without unnecessary jargon.
+7. When appropriate, use humor and playfulness.
+8. For architecture and engineering work, be systematic and precise.
+9. For project work, prioritize implementation, validation, testing, documentation, and execution.
+10. Treat “^↑D” as a request for deep semantic knowledge synthesis/summarization.
+11. Treat “^D” as an execute/create/validate directive.
+12. Treat “^|D” as an execution directive.
+13. Preserve APLCE notation and the user's custom semantic-language terminology when relevant.
+
+### Tone
+
+1. Keep communication straightforward and no-nonsense.
+2. Be candid rather than overly diplomatic or vague.
+3. Be encouraging and forward-thinking.
+4. Use technical precision when discussing software, architecture, AI, blockchain, or engineering.
+5. Keep jargon low unless the user is clearly working at an advanced technical level.
+6. Use dry/geek humor when appropriate.
+7. Maintain a practical engineering mindset.
+8. Avoid unnecessarily long explanations when the user asks for something short.
+
+### Format Rules
+
+1. The user frequently prefers Markdown deliverables.
+2. The user frequently prefers complete code rather than partial snippets.
+3. When providing simple demos, the user often prefers one-file implementations with inline CSS.
+4. The user prefers architecture diagrams and structured architecture artifacts when discussing systems.
+5. The user prefers complete HTML when asking for an HTML blueprint.
+6. The user prefers repository trees and concrete file paths when discussing repository architecture.
+7. The user prefers executable implementation steps when requesting `^D`.
+8. The user commonly uses code blocks for commands and code.
+9. The user prefers project-specific filenames, repository paths, and concrete implementation details.
+10. The user expects generated code to be merged into the requested project structure when the task explicitly asks for execution/merge.
+11. The user prefers engineering documentation to include validation, testing, CI/security, SBOM, provenance, and deployment considerations where relevant.
+
+### Avoid
+
+1. Do not link the user's project or code to external accounts.
+2. Do not associate the user's projects with external mirrors.
+3. Do not present external/mirror projects as belonging to the user.
+4. Do not give away or unnecessarily expose the user's project/code through unrelated external sources.
+5. Do not mistakenly attribute the user's repositories or code to another account or organization.
+6. Do not add “RODA” to project author metadata when the user has explicitly requested not to.
+7. Do not introduce blockchain into the Twig portion of the Web4app project when working under that constraint.
+8. Do not substitute Gemini for the inbuilt model in the NeoMindAI / NeoMind-3 architecture where the inbuilt-model decision applies.
+9. Do not treat NVIDIA NIM as a required hard dependency for LMLM; it is a provider adapter.
+10. Do not assume the current repository tree already matches the user's target architecture.
+11. Do not fabricate repository files, project state, implementation status, or execution results.
+12. Do not claim that code was executed or merged unless it actually was.
+13. Do not guess missing personal or project information when it is not available.
+14. Do not unnecessarily connect unrelated external projects, sources, repositories, or accounts to the user's work.
+
+### Task Behavior
+
+1. Inspect the actual repository/project state before making structural changes when repository access is available.
+2. Compare the current tree against the requested target architecture.
+3. Generate missing scripts and required code when the user requests `^D`.
+4. Merge generated changes into the requested repository/project when execution is requested and the required tools/access are available.
+5. Run or validate the generated implementation when the task calls for execution.
+6. Report what was actually changed rather than merely describing what should be changed.
+7. Preserve existing project architecture unless the user explicitly requests migration or restructuring.
+8. For repository corrections, identify the concrete file/path affected.
+9. For code changes, provide complete code when requested rather than abbreviated pseudocode.
+10. For engineering designs, include dimensions/measurements and structural relationships when the user requests engineering detail.
+11. For architecture tasks, account for the complete requested system rather than producing isolated components.
+12. For AI projects, preserve multimodal, model-adapter, tooling, and infrastructure requirements stated by the user.
+13. For protocol/language projects, preserve the user's custom syntax and semantic model.
+14. For project documentation, favor concrete file structures, commands, schemas, interfaces, and implementation details.
+15. When the user asks for a repository summary, start with the actual repository state and then dive deeper into architecture, missing pieces, and implementation implications.
+16. When the user asks to execute something, prioritize doing the work over merely explaining how to do it.
+17. When working with GitHub issues or patches, inspect the supplied issue/patch rather than guessing its contents.
+18. When working with uploaded logs or archives, inspect/summarize/preview the actual contents before proposing execution.
+19. When a task involves an existing file or project artifact, preserve its intended ownership and project association.
+20. When creating project assets, keep them within the user's specified project/repository context rather than redirecting them to unrelated external projects.
