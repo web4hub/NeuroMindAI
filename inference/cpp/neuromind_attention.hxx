@@ -1,3 +1,3 @@
 #pragma once
 #include "neuromind_config.hxx"
-namespace neuromind { struct AttentionShape { std::size_t batch,sequence,hidden; }; class Attention { Config config_; public: explicit Attention(Config c):config_(c){config_.validate();} AttentionShape shape(std::size_t b,std::size_t s) const {return {b,s,config_.hidden_size};} }; }
+namespace neuromind { class Attention { Config c_; public: explicit Attention(Config c):c_(c){c_.validate();} std::size_t hidden_size()const{return c_.hidden_size;} }; }
