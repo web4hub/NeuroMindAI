@@ -19,11 +19,10 @@ def test_worker_payload_and_atomic_record(tmp_path, monkeypatch):
     monkeypatch.setattr("neuromind.document_ingestion.PROCESS_DELAY_SECONDS", 0.0)
 
     async def run():
-        worker = AsyncModelWorker()
+        requests = []
 
-        async def post(url, **kwargs):
-            assert kwargs["json"]["model"]
-            assert kwargs["json"]["stream"] is False
+        def handler(request: httpx.Request) -> httpx.Response:
+            requests.append(request)
             content = json.dumps({
                 "document_type": "invoice",
                 "entity_name": "Example Vendor",
@@ -32,13 +31,23 @@ def test_worker_payload_and_atomic_record(tmp_path, monkeypatch):
             })
             return httpx.Response(
                 200,
-                request=httpx.Request("POST", url),
+                request=request,
                 json={"message": {"content": content}},
             )
 
-        worker.client.post = post
+        worker = AsyncModelWorker()
+        await worker.client.aclose()
+        worker.client = httpx.AsyncClient(
+            transport=httpx.MockTransport(handler)
+        )
         await worker.process_file(image)
         await worker.close()
+
+        assert requests
+        payload = json.loads(requests[0].content)
+        assert payload["model"]
+        assert payload["stream"] is False
+        assert payload["format"]["type"] == "object"
 
     asyncio.run(run())
 
