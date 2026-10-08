@@ -1,3 +1,13 @@
+PYTHONPATH=src python3 -m bayes_irt_gsm8k.cli \
+  --data-dir . \
+  --model dmixture_family_2pl \
+  --item-mode all \
+  --exclude-saturated-items \
+  --max-models 100 \
+  --max-items 25 \
+  --steps 100 \
+  --batch-size 5000 \
+  --output-dir bayes_irt_outputs
 cat-readme [https://github.com/web4hub/NeuroMindAI.git]
 # Install the repository in editable mode
 python -m pip install -e .
