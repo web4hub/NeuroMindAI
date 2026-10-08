@@ -7,7 +7,10 @@ name = "neuromindai"
 version = "0.1.0"
 description = "NeuroMindAI: a from-scratch decoder-only language model."
 requires-python = ">=3.10"
-dependencies = ["torch>=2.2"]
+dependencies = [
+    "torch>=2.2",
+    "pybars3>=0.9.7",
+]
 
 [tool.setuptools.packages.find]
 include = ["neuromind*"]
