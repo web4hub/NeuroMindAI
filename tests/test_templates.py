@@ -1,1 +1,28 @@
-from pathlib import Path\n\nfrom neuromind.templates import HandlebarsTemplateEngine\n\n\ndef test_inline_handlebars_rendering():\n    engine = HandlebarsTemplateEngine()\n    rendered = engine.render(\n        "Hello {{name}}!{{#if context}} Context: {{context}}{{/if}}",\n        {"name": "NeuroMind", "context": "research"},\n    )\n    assert rendered == "Hello NeuroMind! Context: research"\n\n\ndef test_file_rendering():\n    root = Path(__file__).parents[1] / "templates"\n    engine = HandlebarsTemplateEngine(root)\n    rendered = engine.render_file(\n        "Neuromindai.handlebars",\n        {\n            "task": "Explain attention.",\n            "instructions": "Be concise.",\n            "response_format": "paragraph",\n        },\n    )\n    assert "Explain attention." in rendered\n    assert "Be concise." in rendered\n    assert "Context:" not in rendered\n
+from pathlib import Path
+
+from neuromind.templates import HandlebarsTemplateEngine
+
+
+def test_inline_handlebars_rendering():
+    engine = HandlebarsTemplateEngine()
+    rendered = engine.render(
+        "Hello {{name}}!{{#if context}} Context: {{context}}{{/if}}",
+        {"name": "NeuroMind", "context": "research"},
+    )
+    assert rendered == "Hello NeuroMind! Context: research"
+
+
+def test_file_rendering():
+    root = Path(__file__).parents[1] / "templates"
+    engine = HandlebarsTemplateEngine(root)
+    rendered = engine.render_file(
+        "Neuromindai.handlebars",
+        {
+            "task": "Explain attention.",
+            "instructions": "Be concise.",
+            "response_format": "paragraph",
+        },
+    )
+    assert "Explain attention." in rendered
+    assert "Be concise." in rendered
+    assert "Context:" not in rendered
