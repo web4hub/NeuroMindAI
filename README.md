@@ -23,8 +23,8 @@ Core components:
 - Handlebars prompt/report templating outside the neural network
 
 ## Architecture
-
-```text
+[pytest](https://docs.pytest.org/en/stable/how-to/capture-warnings.html)
+```cmd
 template context
   │
   ▼
