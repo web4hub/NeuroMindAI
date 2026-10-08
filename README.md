@@ -1,3 +1,5 @@
+[![NeuroMindAI CI](https://github.com/web4hub/NeuroMindAI/actions/workflows/ci.yml/badge.svg)](https://github.com/web4hub/NeuroMindAI/actions/workflows/ci.yml)
+
 # NeuroMindAI 🧠
 
 NeuroMindAI is a from-scratch decoder-only Transformer research project.

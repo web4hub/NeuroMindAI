@@ -1,3 +1,13 @@
+"""Generation helpers."""
+from __future__ import annotations
+import torch
+
+def sample_next_token(logits:torch.Tensor,temperature=1.0,top_k=0)->torch.Tensor:
+    if temperature<=0: return logits.argmax(dim=-1,keepdim=True)
+    logits=logits/temperature
+    if top_k>0:
+        k=min(int(top_k),logits.size(-1)); values,_=torch.topk(logits,k,dim=-1); logits=logits.masked_fill(logits<values[...,-1,None],float("-inf"))
+    return torch.multinomial(torch.softmax(logits,dim=-1),1)
 """Safe bounded generation helpers."""
 from __future__ import annotations
 import torch
