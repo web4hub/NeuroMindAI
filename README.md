@@ -18,11 +18,21 @@ Core components:
 - next-token cross-entropy training
 - autoregressive generation
 - PyTorch checkpoint export
+- Handlebars prompt/report templating outside the neural network
 
 ## Architecture
 
 ```text
-tokens
+template context
+  │
+  ▼
+HandlebarsTemplateEngine
+  │
+  ▼
+rendered prompt text
+  │
+  ▼
+tokenizer
   │
   ▼
 Embedding
@@ -43,6 +53,35 @@ Embedding
          LM Head
            ▼
         Logits
+```
+
+Handlebars is an infrastructure layer around the model, not a Transformer operation. It can assemble prompts and render inference reports while leaving the mathematical model path unchanged.
+
+## Templates
+
+```text
+templates/
+├── Neuromindai.handlebars
+├── Lmlm.handlebars
+├── neomind.handlebars
+└── reports/
+    └── inference.handlebars
+```
+
+Example:
+
+```python
+from neuromind import HandlebarsTemplateEngine
+
+engine = HandlebarsTemplateEngine("templates")
+prompt = engine.render_file(
+    "Neuromindai.handlebars",
+    {
+        "task": "Explain attention",
+        "instructions": "Be concise",
+        "response_format": "paragraph",
+    },
+)
 ```
 
 ## Run
