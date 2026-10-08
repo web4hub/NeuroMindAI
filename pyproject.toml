@@ -14,3 +14,11 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 include = ["neuromind*"]
+
+[pytest]
+filterwarnings = [
+    'error',
+    'ignore::UserWarning',
+    # Note the use of single quote below to denote "raw" strings in TOML.
+    'ignore:function ham\(\) is deprecated:DeprecationWarning',
+]
