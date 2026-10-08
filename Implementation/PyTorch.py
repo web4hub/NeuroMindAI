@@ -43,3 +43,17 @@ if __name__ == "__main__":
     output = mlp(sample_input)
     print(f"MLP Input Shape:  {sample_input.shape}")
     print(f"MLP Output Shape: {output.shape} (Successfully projected back)")
+
+class NeuroMindBlock(nn.Module):
+    def __init__(self, config):
+        super().__init__()
+        # self.attn_norm = RMSNorm(config.dim)
+        # self.attn = NeuroMindGQA(config)
+        # self.mlp_norm = RMSNorm(config.dim)
+        # self.mlp = NeuroMindSwiGLU(config.dim, config.hidden_dim)
+        pass
+
+    def forward(self, x):
+        # x = x + self.attn(self.attn_norm(x))
+        # x = x + self.mlp(self.mlp_norm(x))
+        return x
