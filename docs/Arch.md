@@ -1,4 +1,26 @@
-🔥 Good. Then I’d take the next step and make **NeuroMindAI v0.1 a real, runnable project**, not just an architecture sketch.
+
+## 🧠 Core Attention Concepts
+
+| Component | Purpose | How it works in NeuroMindAI |
+|---|---|---|
+| GQA | Optimizes memory bandwidth | Groups multiple Query (Q) heads to share a single Key (K) and Value (V) head, balancing multi-head attention quality with multi-query speed. |
+| RoPE | Adds positional context | Rotates the Q and K vectors in a complex space to naturally encode relative distances between tokens instead of using absolute position weights. |
+
+## 🛠️ Conceptual Implementation Step-by-Step
+Because this is a from-scratch decoder-only model, a typical implementation within the neuromind module looks like this:
+
+   1. Linear Projection:
+   The input tensor passes through linear layers to create Q, K, and V. Because it uses GQA, the number of heads for K and V is intentionally smaller than the number of heads for Q.
+   2. Apply RoPE:
+   Before computing attention scores, RoPE is applied to the Q and K tensors. It splits the head dimensions into pairs and applies a rotation matrix based on the token's position index.
+   3. Head Up-sampling (Broadcasting):
+   To calculate attention scores, the K and V heads are repeated (broadcasted) so that their counts match the higher number of Q heads.
+   4. Causal Masked Attention:
+   The model computes standard scaled dot-product attention ($\frac{QK^T}{\sqrt{d_k}}$), applies a upper-triangular causal mask to prevent looking at future tokens, runs a Softmax, and multiplies by V.
+
+------------------------------
+
+
 
 The important thing is to separate the system into three layers:
 
